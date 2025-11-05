@@ -1,0 +1,16 @@
+850539f8b716b86e5acceb379cfaf246 *DESCRIPTION
+18e71adc2f65f6620b5f685c563d32bd *NAMESPACE
+754e065247c6c0636c3fe8440af3bfc9 *R/import-standalone-purrr.R
+69a15c437c4a22d31ba281b606a2fecd *R/insulin.secretion-package.R
+b1c14a380f1482a8bf9289654488c057 *R/isr.deconv.R
+4adf40523fef2be637ef19fe42611ee8 *R/isr.fraction.R
+5af95667440149d1da61488e2fd38512 *R/isr.longHL.R
+3edf29dd37d1f3658d8c024048eedce9 *R/isr.shortHL.R
+193adce0bdbfb7ecd842b8b009633464 *R/isr.volume.R
+1bf18d9c216b8d95033f0bd2fe2906b2 *build/partial.rdb
+5394eb7c1e2f70fd4ff3ebe9462c73cf *man/insulin.secretion-package.Rd
+d5f2e212e557d2abfb5841fe105492f8 *man/isr.deconv.Rd
+9f89d015ed98c1cef19fb69681b41985 *man/isr.fraction.Rd
+3dc71bc51ab97ebf5c21e56753364f43 *man/isr.longHL.Rd
+fd1a7de6b2ed10ea4fd6e8d652ec5a50 *man/isr.shortHL.Rd
+fbab37ff929efd4864972cb624c87997 *man/isr.volume.Rd
