@@ -1,7 +1,7 @@
 #' @title Serum Volume Calculator
 #'
 #' @description
-#' Calculates the estimated serum volume based on patient sex, weight, and
+#' Calculates the estimated serum volume (mL) based on patient sex, weight, and
 #' height for use in [isr.deconv()].
 #'
 #' @param subject.sex String for patient sex, `"m"` or `"f"`.
@@ -19,11 +19,11 @@
 #' @seealso [isr.deconv()]
 #'
 isr.volume <- function(subject.sex = c("m", "f"), subject.weight, subject.height) {
-  subject.bsa <- subject.weight^0.425 * subject.height^0.725 * 71.84
+  subject.bsa <- subject.weight^0.425 * subject.height^0.725 * 71.84 * 10^-4
   if (subject.sex == "m") {
-    1.92 * subject.bsa + 0.64
+    (1.92 * subject.bsa + 0.64) * 10^3
   } else if (subject.sex == "f") {
-    1.11 * subject.bsa + 2.04
+    (1.11 * subject.bsa + 2.04) * 10^3
   } else {
     stop("Error: subject.sex must be one of 'm' or 'f'.")
   }

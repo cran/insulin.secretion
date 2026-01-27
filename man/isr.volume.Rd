@@ -17,7 +17,7 @@ isr.volume(subject.sex = c("m", "f"), subject.weight, subject.height)
 Numeric value.
 }
 \description{
-Calculates the estimated serum volume based on patient sex, weight, and
+Calculates the estimated serum volume (mL) based on patient sex, weight, and
 height for use in \code{\link[=isr.deconv]{isr.deconv()}}.
 }
 \examples{
